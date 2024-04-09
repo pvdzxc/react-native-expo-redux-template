@@ -11,6 +11,12 @@ module.exports = function (api) {
           },
         },
       ],
+      [
+        "react-native-web", 
+        { 
+          "commonjs": true 
+        }
+      ] // Adjust options if needed
     ],
   };
 };
